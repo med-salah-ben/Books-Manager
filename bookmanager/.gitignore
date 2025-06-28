@@ -1,0 +1,70 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pyc
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+*.sqlite3
+.env
+
+# If you use PostgreSQL or MySQL and have local config:
+*.db
+
+# Env & Virtualenv
+env/
+venv/
+ENV/
+VENV/
+.venv/
+.ENV/
+.env/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Pytest
+.pytest_cache/
+
+# Migrations
+**/migrations/
+!*/migrations/__init__.py
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# VS Code settings or local config
+*.code-workspace
