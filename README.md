@@ -1,5 +1,6 @@
-
 # 📚 BookManager – Application de Gestion de Livres
+
+![Book Manager Screenshot](./bookApp.png)
 
 Ce projet est composé de deux parties :
 
@@ -12,15 +13,12 @@ Ce projet est composé de deux parties :
 
 ```
 project-root/
-│
 ├── book-ui/            # Frontend Angular
 │   ├── src/app/
 │   └── ...
-│
 ├── bookmanager/        # Backend Django
 │   ├── manage.py
 │   └── ...
-│
 ├── .gitignore
 ├── recruitment.txt     # = requirements.txt pour Django
 └── README.md
@@ -71,7 +69,8 @@ L’interface est accessible à [http://localhost:4200](http://localhost:4200)
 ### Angular (`book-ui`)
 
 - Affichage de la liste des livres
-- Formulaire d’ajout de livre
+- Formulaire d’ajout et de modification de livre
+- Suppression avec modal
 - Intégration avec une API Django REST
 
 ### Django (`bookmanager`)
